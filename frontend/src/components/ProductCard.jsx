@@ -62,7 +62,7 @@ const ProductCard = ({product}) => {
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>Modal Title</ModalHeader>
+          <ModalHeader>Product editing</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <VStack>
